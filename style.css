@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+header {
+  height: 10vh;
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+}
+
+main {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  height: 80vh;
+  background-color: red;
+  color: aliceblue;
+  padding: 10px;
+}
+
+aside {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+}
+
+footer {
+  grid-column: 1 / span 4;
+  grid-row: 3;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.logo {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+}
